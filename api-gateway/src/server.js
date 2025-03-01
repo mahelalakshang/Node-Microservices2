@@ -96,7 +96,7 @@ app.use(
   })
 );
 
-//setting up proxy for our media service
+// //setting up proxy for our media service
 app.use(
   "/v1/media",
   validateToken,
